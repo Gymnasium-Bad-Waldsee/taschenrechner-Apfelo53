@@ -1,6 +1,15 @@
 def add(a, b):
     """Gibt die Summe von a und b zurück."""
     return a + b
+def sub(a, b):
+    """Gibt die Summe von a und b zurück."""
+    return a - b
+def mul(a, b):
+    """Gibt die Summe von a und b zurück."""
+    return a * b
+def div(a, b):
+    """Gibt die Summe von a und b zurück."""
+    return a / b
 
 # Hier sollen die Schüler die Funktionen für Subtraktion, Multiplikation und Division selbst erstellen.
 
@@ -23,12 +32,15 @@ if choice in ['1', '2', '3', '4']:
         if choice == '1':
             print(f"Das Ergebnis ist: {add(num1, num2)}")
         elif choice == '2':
+            print(f"Das Ergebnis ist: {sub(num1, num2)}")
             # Hier soll die Subtraktionsfunktion aufgerufen werden
             pass
         elif choice == '3':
+            print(f"Das Ergebnis ist: {mul(num1, num2)}")
             # Hier soll die Multiplikationsfunktion aufgerufen werden
             pass
         elif choice == '4':
+            print(f"Das Ergebnis ist: {div(num1, num2)}")
             # Hier soll die Divisionsfunktion aufgerufen werden
             pass
 else:
