@@ -21,7 +21,6 @@ print("3. Multiplikation")
 print("4. Division")
 
 choice = input("Gib die Nummer der gewünschten Operation ein (1/2/3/4): ")
-#Augh
 if choice in ['1', '2', '3', '4']:
     try:
         num1 = float(input("Gib die erste Zahl ein: "))
